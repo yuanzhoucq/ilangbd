@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ilangbd",
-    version='0.2',
+    version='0.2.1',
     description="A console application of speaking made with Baidu Yuyin",
     long_description="speak",
     packages=find_packages(),
