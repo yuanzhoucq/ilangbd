@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ilangbd",
-    version='0.2.1',
+    version='0.2.2',
     description="A console application of speaking made with Baidu Yuyin",
     long_description="speak",
     packages=find_packages(),
@@ -14,7 +14,6 @@ setup(
     license='MIT',
     install_requires=[
         'Click',
-        'requests',
     ],
     entry_points='''
         [console_scripts]
